@@ -38,7 +38,7 @@ for ( var x = 0;x< list.length;x++){
 }
 
 
-$('#header').instaheader({
+$('#header2').instaheader({
   auto: true,
   imgs:nlist,
   urls:nlist,
