@@ -16,8 +16,9 @@ var feed = new Instafeed({
 // bind the load more button
 loadButton.addEventListener('click', function() {
   feed.next();
-  $( "#instafeed2" ).fadeOut();
-    $( "#instafeed2" ).fadeIn();
+  $( "#instafeed" ).fadeOut();
+    $( "#instafeed" ).fadeIn();
+    
 });
 
 // run our feed!
@@ -51,4 +52,3 @@ $('#header2').instaheader({
 
 
 }, 1000);
-
